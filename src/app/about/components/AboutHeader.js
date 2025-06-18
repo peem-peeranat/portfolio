@@ -1,7 +1,9 @@
 'use client';
 
-import { Typography, useTheme } from "@mui/material";
+import { Typography, useTheme, Box, Button } from "@mui/material";
 import { motion } from 'framer-motion';
+import { Roboto_Flex } from "next/font/google";
+import DownloadIcon from '@mui/icons-material/Download';
 
 export default function AboutHeader() {
   const theme = useTheme();
@@ -13,33 +15,63 @@ export default function AboutHeader() {
       transition={{ duration: 0.8, ease: [0.16, 0.77, 0.47, 0.97] }}
       viewport={{ once: true, margin: "-20%" }}
     >
-      <Typography
-        variant="h3"
-        gutterBottom
+      <Box
         sx={{
-          fontWeight: 500,
-          background: 'linear-gradient(90deg, #ffffff, #a7c4ff, #c9d6ff)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          backgroundSize: '200% auto',
-          mb: 4,
-          position: 'relative',
-          display: 'inline-block',
-          '&::after': {
-            content: '""',
-            position: 'absolute',
-            bottom: -8,
-            left: 0,
-            width: '100%',
-            height: '3px',
-            background: 'linear-gradient(90deg, rgba(169,201,255,0.8), rgba(169,201,255,0.2))',
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          mb: 4
+        }}>
+        <Typography
+          variant="h3"
+          gutterBottom
+          sx={{
+            fontWeight: 500,
+            background: 'linear-gradient(90deg, #ffffff, #a7c4ff, #c9d6ff)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            backgroundSize: '200% auto',
+            position: 'relative',
+            display: 'inline-block',
+            '&::after': {
+              content: '""',
+              position: 'absolute',
+              bottom: -8,
+              left: 0,
+              width: '100%',
+              height: '3px',
+              background: 'linear-gradient(90deg, rgba(169,201,255,0.8), rgba(169,201,255,0.2))',
+              borderRadius: 2,
+            }
+          }}
+        >
+          About Me
+        </Typography>
+        <Button
+          component="a"
+          href="/documents/Resume_Peeranat.pdf"
+          download="Peeranat_Resume.pdf"
+          variant="outlined"
+          startIcon={<DownloadIcon />}
+          sx={{
+            color: theme.palette.primary.light,
+            borderColor: theme.palette.primary.light,
+            '&:hover': {
+              backgroundColor: 'rgba(169, 201, 255, 0.08)',
+              borderColor: theme.palette.primary.main,
+              color: theme.palette.primary.main,
+            },
+            transition: 'all 0.3s ease',
+            textTransform: 'none',
             borderRadius: 2,
-          }
-        }}
-      >
-        About Me
-      </Typography>
-
+            px: 3,
+            py: 1,
+            fontSize: '0.95rem'
+          }}
+        >
+          Download Resume
+        </Button>
+      </Box>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
