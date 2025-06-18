@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import ExperienceCard from './ExperienceCard';
 import { Work, Videocam, Animation, DesignServices, ExpandMore } from '@mui/icons-material';
+import Image from 'next/image';
 
 export default function ExperienceSection() {
   const experiences = [
@@ -13,7 +14,19 @@ export default function ExperienceSection() {
       company: "ADOP Thailand Co., Ltd.",
       duration: "Fulltime (10 months)",
       description: "Developed and maintained web applications using React, Next.js, and TypeScript",
-      icon: <Work fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/adop.jpg"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["React", "Next.js", "TypeScript"]
     },
     {
@@ -21,7 +34,19 @@ export default function ExperienceSection() {
       company: "foxbith",
       duration: "Internship (5 months)",
       description: "Collaborated on UI development and implemented responsive designs",
-      icon: <Work fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/foxbith.jpg"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["React", "Styled Components"]
     },
     {
@@ -29,7 +54,19 @@ export default function ExperienceSection() {
       company: "Phuket Innovative Development",
       duration: "Internship (3 months)",
       description: "Assisted in building user interfaces and fixing frontend bugs",
-      icon: <Work fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/pkdev.jpg"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["JavaScript", "CSS"]
     },
     {
@@ -37,7 +74,19 @@ export default function ExperienceSection() {
       company: "Dr.Orn Medical Hair Center",
       duration: "2022-2023",
       description: "Created promotional videos and social media content",
-      icon: <Videocam fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/dr_orn.jpg"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["Premiere Pro", "After Effects"]
     },
     {
@@ -45,23 +94,59 @@ export default function ExperienceSection() {
       company: "Boxx Music - Serious Copter [Official MV]",
       duration: "Freelance Project",
       description: "Created visual effects and compositing for music video",
-      icon: <Animation fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/box_music.png"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["After Effects", "Compositing"]
     },
     {
       title: "Motion Graphics Designer",
       company: "SET Thailand - Gen Z The Series",
-      duration: "Contract",
+      duration: "Project - Velcurve",
       description: "Designed motion graphics for television series",
-      icon: <DesignServices fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/set_thailand.jpg"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["Motion Graphics", "After Effects"]
     },
     {
       title: "Video Editor Intern",
       company: "Velcurve",
-      duration: "Internship (4 months)",
+      duration: "Internship (4 months) HBD Volvo",
       description: "Edited video content for various clients",
-      icon: <Videocam fontSize="small" />,
+      icon: (
+        <Box
+          component="img"
+          src="/logos/velcurve.png"
+          alt="Company Logo"
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            borderRadius: '4px' // optional
+          }}
+        />
+      ),
       tags: ["Video Editing", "Color Grading"]
     }
   ];

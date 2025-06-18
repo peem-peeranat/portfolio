@@ -30,9 +30,8 @@ const ExperienceCard = ({ exp }) => {
         <CardContent sx={{ p: 4 }}>
           <Stack direction="row" spacing={2} alignItems="center" mb={1.5}>
             <div style={{
-              padding: '8px',
-              background: 'rgba(169, 196, 255, 0.1)',
-              borderRadius: '8px',
+              width: '48px', // ขนาดที่ต้องการให้ icon แสดง
+              height: '48px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center'
