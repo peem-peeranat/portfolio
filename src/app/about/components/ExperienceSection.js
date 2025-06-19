@@ -13,7 +13,7 @@ export default function ExperienceSection() {
       title: "Frontend Developer",
       company: "ADOP Thailand Co., Ltd.",
       duration: "Fulltime (10 months)",
-      description: "Developed and maintained web applications using React, Next.js, and TypeScript",
+      description: "Developed and maintained web applications using Wordpress, Google Tag Manager, and Google Analytics 4 ",
       icon: (
         <Box
           component="img"
@@ -33,7 +33,7 @@ export default function ExperienceSection() {
       title: "Frontend Developer Intern",
       company: "foxbith",
       duration: "Internship (5 months)",
-      description: "Collaborated on UI development and implemented responsive designs",
+      description: "Collaborated on UI development and implemented responsive designs using React, Next.js, Webflow, Strapi, MUI, and TypeScript",
       icon: (
         <Box
           component="img"
@@ -53,7 +53,7 @@ export default function ExperienceSection() {
       title: "Frontend Developer Intern",
       company: "Phuket Innovative Development",
       duration: "Internship (3 months)",
-      description: "Assisted in building user interfaces and fixing frontend bugs",
+      description: "Assisted in building user interfaces and fixing frontend bugs using React, And design, Bootstrap, Firebase",
       icon: (
         <Box
           component="img"
