@@ -63,7 +63,7 @@ export const projects = [
     image: '/img/exp_frontend_ecommerce.png',
     category: 'Mini Project',
     github: 'https://github.com/peem-peeranat/metro-cat_e-commerce',
-    demo: 'https://www.youtube.com/watch?v=hDuMTdcsRTk',
+    demo: 'https://metro-cat-e-commerce-peem-peeranats-projects.vercel.app/',
     tech: ['React.js', 'REST API', 'Material UI']
   },
   {
