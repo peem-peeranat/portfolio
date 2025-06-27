@@ -4,8 +4,8 @@ import { Typography, Stack, Button, Box } from "@mui/material";
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import ExperienceCard from './ExperienceCard';
-import { Work, Videocam, Animation, DesignServices, ExpandMore } from '@mui/icons-material';
-import Image from 'next/image';
+import { ExpandMore } from '@mui/icons-material';
+
 
 export default function ExperienceSection() {
   const experiences = [

@@ -58,6 +58,16 @@ export const projects = [
   },
   {
     id: 6,
+    title: 'Frontend - E commerce Website',
+    description: 'Mockup E-commerce website built with React',
+    image: '/img/exp_frontend_ecommerce.png',
+    category: 'Mini Project',
+    github: 'https://github.com/peem-peeranat/metro-cat_e-commerce',
+    demo: 'https://www.youtube.com/watch?v=hDuMTdcsRTk',
+    tech: ['React.js', 'REST API', 'Material UI']
+  },
+  {
+    id: 7,
     title: 'Movie API',
     description: 'Custom API for movie data with Next.js',
     image: '/img/exp_movie_api.png',
@@ -67,7 +77,7 @@ export const projects = [
     tech: ['Next.js', 'REST API', 'Material UI']
   },
   {
-    id: 7,
+    id: 8,
     title: 'Weather API',
     description: 'Weather data API service',
     image: '/img/exp_weather-dashboard.png',
@@ -77,7 +87,7 @@ export const projects = [
     tech: ['Next.js', 'OpenWeather API', 'Vercel', 'Material UI']
   },
   {
-    id: 8,
+    id: 9,
     title: 'CRUD Application',
     description: 'Fullstack CRUD application with database',
     image: '/img/exp_crud.png',
@@ -87,7 +97,7 @@ export const projects = [
     tech: ['Next.js', 'Express', 'SQL', 'REST API', 'Material UI']
   },
   {
-    id: 9,
+    id: 10,
     title: 'บอกให้ฟังหน่อยนะ (please tell me)',
     description: 'บอกให้ฟังหน่อยนะ (please tell me) - Serious Copter [ Official MV ]',
     image: 'https://img.youtube.com/vi/H2hb8vPOpt8/maxresdefault.jpg',
@@ -97,7 +107,7 @@ export const projects = [
     tech: ['Video editor', 'animate', 'after effect', 'premiere pro', 'photoshop']
   },
   {
-    id: 10,
+    id: 11,
     title: 'หนุ่มออนไลน์กับสาวข้างห้อง | Gen Z The series',
     description: 'Gen Z The Series - หนุ่มออนไลน์กับสาวข้างห้อง',
     image: 'https://img.youtube.com/vi/vVavkLRyVCg/maxresdefault.jpg',
@@ -107,7 +117,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro']
   },
   {
-    id: 11,
+    id: 12,
     title: 'เงินเก็บแบ่งได้กับยัยซัพพอร์ต | Gen Z The series',
     description: 'Gen Z The Series - เงินเก็บแบ่งได้กับยัยซัพพอร์ต',
     image: 'https://img.youtube.com/vi/mJnJ0r3O9dk/maxresdefault.jpg',
@@ -117,7 +127,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro']
   },
   {
-    id: 12,
+    id: 13,
     title: 'ต๊อด ปนพงษ์ ขอปลูกผมแก้ปลูกกับ Dr.Orn',
     description: 'ต๊อด ปนพงษ์ ขอปลูกผมแก้ปลูกกับ Dr.Orn',
     image: 'https://img.youtube.com/vi/7PHZg1k48GE/maxresdefault.jpg',
@@ -127,7 +137,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro']
   },
   {
-    id: 13,
+    id: 14,
     title: 'รวมความประทับใจ2022 ผลลัพธ์ปลูกผมกับ Dr.Orn',
     description: 'รวมความประทับใจ2022 ผลลัพธ์ปลูกผมกับ Dr.Orn',
     image: 'https://img.youtube.com/vi/k1k4scCob0w/maxresdefault.jpg',
@@ -137,7 +147,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro', 'camera']
   },
   {
-    id: 14,
+    id: 15,
     title: 'ผมพร้อมแล้ว - Official Trailer',
     description: 'ผมพร้อมแล้ว - Official Trailer',
     image: 'https://img.youtube.com/vi/5LfFjOc2qmk/maxresdefault.jpg',
@@ -147,7 +157,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro', 'camera']
   },
   {
-    id: 15,
+    id: 16,
     title: 'BIMMERMEET5 x Dr.Orn Medical Hair Center',
     description: 'BIMMERMEET5 x Dr.Orn Medical Hair Center',
     image: 'https://img.youtube.com/vi/3h3rZN1ICsw/maxresdefault.jpg',
@@ -157,7 +167,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro', 'camera']
   },
   {
-    id: 16,
+    id: 17,
     title: 'Frontal fibrosing alopecia (FFA) โรคร้ายรีบรักษาก่อนสาย EP.1',
     description: 'Frontal fibrosing alopecia (FFA) โรคร้ายรีบรักษาก่อนสาย EP.1',
     image: 'https://img.youtube.com/vi/fsdo6axzRfY/hqdefault.jpg',
@@ -167,7 +177,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro', 'camera']
   },
   {
-    id: 17,
+    id: 18,
     title: 'KHAO LUANG | Cinematic Travel Film',
     description: 'KHAO LUANG | Cinematic Travel Film',
     image: 'https://img.youtube.com/vi/16jruSlYF1A/hqdefault.jpg',
@@ -177,7 +187,7 @@ export const projects = [
     tech: ['after effect', 'premiere pro', 'camera', 'davinci resolve', 'photoshop']
   },
   {
-    id: 18,
+    id: 19,
     title: 'CAMPING | Cinematic Travel Film',
     description: 'CAMPING | Cinematic Travel Film',
     image: 'https://img.youtube.com/vi/hDuMTdcsRTk/hqdefault.jpg',
